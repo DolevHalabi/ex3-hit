@@ -1,4 +1,4 @@
-public class PrintName {
+public class Dolev {
     public static void main(String[] args) {
         String name = "Dolev"; 
         
