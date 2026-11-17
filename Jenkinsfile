@@ -1,11 +1,10 @@
-﻿pipeline {
+pipeline {
     agent any
 
     stages {
         stage('1. Checkout from Git') {
             steps {
-                echo '=== משיך את הקוד האחרון מ-Git ==='
-                // שלב שמשיך אוטומטית את הקוד לתוך ה-Workspace
+                echo '=== מושך את הקוד מ-Git ==='
                 checkout scm
             }
         }
